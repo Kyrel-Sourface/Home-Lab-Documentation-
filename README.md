@@ -4,7 +4,7 @@ A journey of my home lab projects.
 
 # Raspberry Pi Configuration: Transitioning to a Headless System
 
-## 📋 Project Overview
+## Project Overview
 This project documents the process of taking a Raspberry Pi running a standard Linux OS desktop setup and configuring it to run entirely **headless** (without a monitor, keyboard, or mouse). All ongoing management is now handled via remote network access.
 
 * **Operating System:** Debian Linux / Raspberry Pi OS
@@ -12,7 +12,7 @@ This project documents the process of taking a Raspberry Pi running a standard L
 
 ---
 
-## 🛠️ Configuration Workflow
+## Configuration Workflow
 
 ### Step 1: Initial Setup with Peripherals
 Before making the system headless, the Pi was initially hooked up like a traditional desktop computer to verify the OS and configure core settings:
@@ -39,6 +39,7 @@ Step 4: Going Headless
 Unplugged the monitor, keyboard, and mouse.
 Relocated the Pi to its permanent headless spot on the network.
 Verified remote command-line access from a main workstation via SSH: 
+
 ssh username@your-pi-ip-address
 Verified remote desktop access by connecting a VNC Viewer client to the same IP address.
 
