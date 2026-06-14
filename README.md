@@ -38,7 +38,8 @@ Step 4: Going Headless
 ​With all remote services active and the IP address noted, the peripherals were completely disconnected: 
 Unplugged the monitor, keyboard, and mouse.
 Relocated the Pi to its permanent headless spot on the network.
-Verified remote command-line access from a main workstation via SSH: ssh username@your-pi-ip-address
+Verified remote command-line access from a main workstation via SSH: 
+ssh username@your-pi-ip-address
 Verified remote desktop access by connecting a VNC Viewer client to the same IP address.
 
 Post-Deployment Maintenance
