@@ -11,7 +11,7 @@ This repository documents the architecture and engineering lifecycle of a headle
 For full technical deployment logs, step-by-step terminal execution, and networking maps, see the dedicated engineering files:
 
 1. 📄 [Phase 1: Headless OS Provisioning & Secure Remote Access](docs/headless-setup.md)
-2. 📄 [Phase 2: Pi-hole Deployment & Advanced DHCP Infrastructure Routing](docs/pihole-dhcp.md)ent to the same IP address.
+2. 📄 [Phase 2: Pi-hole Deployment & Advanced DHCP Infrastructure Routing](docs/pihole.md)
 
 Post-Deployment Maintenance
 ​Immediately after establishing the stable headless connection, system packages were updated to ensure security and stability: sudo apt update && sudo apt upgrade -y
