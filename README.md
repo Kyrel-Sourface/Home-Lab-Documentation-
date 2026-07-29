@@ -12,7 +12,7 @@ For full technical deployment logs, step-by-step terminal execution, and network
 
 1. [Phase 1: Headless OS Provisioning & Secure Remote Access](docs/headless-setup.md)
 2. [Phase 2: Pi-hole Deployment & Advanced DHCP Infrastructure Routing](docs/pihole.md)
-3. [OptiPlex 7060 Proxmox VE Bare-Metal Setup](docs/optiplex-7060-server-setup.md)
+3. [OptiPlex 7060 Proxmox VE Bare-Metal Setup](docs/Optiplex-7060-Server-Setup.md)
 
 Post-Deployment Maintenance
 ​Immediately after establishing the stable headless connection, system packages were updated to ensure security and stability: sudo apt update && sudo apt upgrade -y
